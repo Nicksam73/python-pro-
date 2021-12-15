@@ -1,0 +1,11 @@
+# it comprises of more than one character but represents one character when used within string. 
+# used with /
+# \n ,\t,/',\\ etc.
+str ='i am nick\ni am a boy'
+print(str)
+str ='i am nick\ti am a boy'# gives a tab.
+print(str)
+str ='i am nick\'i am a boy' # gives a apostrophe.
+print(str)
+str ='i am nick\\i am a boy'#gives a backslash \
+print(str)
